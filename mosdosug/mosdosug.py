@@ -13,7 +13,7 @@ from browser import Browser
 
 class MosDosug(Browser):
     name = 'MosDosug class'
-    base_url = 'https://e.mosdosugs.info'
+    base_url = 'http://f.mosdosugs.info'
 
     def __init__(self, elements, **kwargs) -> None:
         self.elements = elements
